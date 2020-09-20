@@ -1,0 +1,12 @@
+import './miner'
+import './smelter'
+import './carpenter'
+import './electronic'
+import './hunter'
+import './industry'
+import './upgrades'
+import './masonry'
+import './mechanic'
+import './oil'
+
+export { getResult } from './utils'

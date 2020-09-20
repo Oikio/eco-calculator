@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // "paths": {
+    //   "~*": ["./*"]
+    // },
+    "lib": ["es2017"],
+    "outDir": "dist",
+    "target": "es2020",
+    "module": "CommonJS",
+    "pretty": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": true,
+    "moduleResolution": "node"
+  }
+}
