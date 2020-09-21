@@ -3,7 +3,7 @@ import { createResource } from './utils'
 // iron
 createResource('iron', { upgrade: 0, from: [] })
 createResource('crushedIron', { upgrade: 3, from: [{ name: 'iron', quantity: 4, constant: true }] })
-createResource('ironConcentrate', { upgrade: 3, price: 2.4, from: [{ name: 'crushedIron', quantity: 5 }] })
+createResource('ironConcentrate', { upgrade: 3, price: 2.4, from: [{ name: 'crushedIron', quantity: 2.5 }] })
 
 // copper
 createResource('copper', { upgrade: 0, from: [] })
