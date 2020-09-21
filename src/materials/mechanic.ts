@@ -18,9 +18,17 @@ createResource('copperWiring', { upgrade: 2, from: [{ name: 'copperBar', quantit
 createResource('heatSink', { upgrade: 2, from: [{ name: 'copperBar', quantity: 8 }] })
 
 // complex
+createResource('valve', { upgrade: 3, from: [{ name: 'steelPlate', quantity: 4 }, { name: 'steelPipe', quantity: 4 }, { name: 'steelGearbox', quantity: 1, constant: true }] })
 createResource('combustionEngine', { upgrade: 2, from: [{ name: 'ironPiston', quantity: 6 }, { name: 'gearbox', quantity: 4 }, { name: 'ironPlate', quantity: 12 }, { name: 'rivet', quantity: 8 }] })
 createResource('boiler', { upgrade: 2, from: [{ name: 'ironPlate', quantity: 15 }, { name: 'screws', quantity: 10 }] })
-createResource('portableSteamEngine', { upgrade: 2, from: [{ name: 'ironPiston', quantity: 8 }, { name: 'screws', quantity: 18 }, { name: 'ironPlate', quantity: 12 }, { name: 'boiler', quantity: 3 }, { name: 'ironGear', quantity: 12 }] })
+createResource('portableSteamEngine', {
+  upgrade: 2, from: [
+    { name: 'ironPiston', quantity: 8 },
+    { name: 'screws', quantity: 18 },
+    { name: 'ironPlate', quantity: 12 },
+    { name: 'boiler', quantity: 3 },
+    { name: 'ironGear', quantity: 12 }]
+})
 createResource('ironAxle', { upgrade: 2, from: [{ name: 'ironBar', quantity: 2 }] })
 createResource('steamTruck', {
   upgrade: 2,

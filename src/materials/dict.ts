@@ -78,7 +78,12 @@ export enum Dict {
   windTurbine,
   jawCrusher,
   frothFloatationCell,
-  steelPipe
+  steelPipe,
+  advancedComustionEngine,
+  valve,
+  steelGearbox,
+  skidSteer,
+  excavator
 }
 
 export type ResName = keyof typeof Dict
