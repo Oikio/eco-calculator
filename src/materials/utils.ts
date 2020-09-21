@@ -47,7 +47,7 @@ const reduceRes =
     (result: Result, nextRec: { name: ResName, quantity: number, constant?: boolean }) => {
       const res = getRes(name)
       const quantityOfSubRes = countQuantity(conf.upgrades, res.upgrade, nextRec.quantity, nextRec.constant) * count
-      const priceOfSubRes = countPrice(config.upgrades, config.basePrice, nextRec.name) * quantityOfSubRes
+      const priceOfSubRes = res.price ? 0 : countPrice(config.upgrades, config.basePrice, nextRec.name) * quantityOfSubRes
       const resultRes = result.resources[nextRec.name]
 
 
