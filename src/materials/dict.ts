@@ -84,7 +84,9 @@ export enum Dict {
   steelGearbox,
   skidSteer,
   excavator,
-  electricMachinistTable
+  electricMachinistTable,
+  cement,
+  roboticAssemblyLine
 }
 
 export type ResName = keyof typeof Dict

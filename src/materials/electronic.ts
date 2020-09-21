@@ -8,6 +8,7 @@ createResource('basicCircuit', { upgrade: 3, from: [{ name: 'copperWiring', quan
 createResource('advancedCircuit', { upgrade: 3, from: [{ name: 'copperWiring', quantity: 4 }, { name: 'goldWiring', quantity: 4 }, { name: 'goldFlakes', quantity: 10 }, { name: 'substrat', quantity: 2 }] })
 createResource('lightBulb', { upgrade: 3, from: [{ name: 'glass', quantity: 2 }, { name: 'copperWiring', quantity: 6 }] })
 createResource('frothFloatationCell', { upgrade: 3, from: [{ name: 'steelPlate', quantity: 15 }, { name: 'steelPipe', quantity: 20 },{ name: 'advancedCircuit', quantity: 10 },{ name: 'electricMotor', quantity: 1, constant:true }] })
+createResource('roboticAssemblyLine', { upgrade: 3, from: [{ name: 'cement', quantity: 30 }, { name: 'electricMotor', quantity: 5 }, { name: 'servo', quantity: 12 }, { name: 'steelBar', quantity: 30 }] })
 
 
 // Line
