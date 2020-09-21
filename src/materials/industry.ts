@@ -3,6 +3,8 @@ import { createResource } from './utils'
 createResource('steelPlate', { upgrade: 3, from: [{ name: 'steelBar', quantity: 3 }] })
 createResource('steelGear', { upgrade: 3, from: [{ name: 'steelBar', quantity: 2 }, { name: 'epoxy', quantity: 1 }] })
 
+createResource('electricMachinistTable', { upgrade: 3, from: [{ name: 'steelBar', quantity: 12 }, { name: 'ironPlate', quantity: 12 }, { name: 'ironGear', quantity: 8 }] })
+
 createResource('rubberWheel', { upgrade: 3, from: [{ name: 'steelBar', quantity: 4 }, { name: 'rubber', quantity: 8 }] })
 createResource('radiator', { upgrade: 3, from: [{ name: 'heatSink', quantity: 4 }, { name: 'copperWiring', quantity: 8 }] })
 createResource('steelAxle', { upgrade: 3, from: [{ name: 'steelBar', quantity: 4 }, { name: 'epoxy', quantity: 3 }] })

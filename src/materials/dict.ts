@@ -83,7 +83,8 @@ export enum Dict {
   valve,
   steelGearbox,
   skidSteer,
-  excavator
+  excavator,
+  electricMachinistTable
 }
 
 export type ResName = keyof typeof Dict
