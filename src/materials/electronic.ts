@@ -11,7 +11,10 @@ createResource('lightBulb', { upgrade: 3, from: [{ name: 'glass', quantity: 2 },
 
 // Line
 // createResource('jawCrusher', { upgrade: 3, from: [{ name: 'glass', quantity: 2 }, { name: 'copperWiring', quantity: 6 }] })
-// createResource('steelCeilingLight', { upgrade: 3, from: [{ name: 'glass', quantity: 2 }, { name: 'copperWiring', quantity: 6 }] })
-// createResource('steelFloorLamp', { upgrade: 3, from: [{ name: 'glass', quantity: 2 }, { name: 'copperWiring', quantity: 6 }] })
-// createResource('steelTableLight', { upgrade: 3, from: [{ name: 'glass', quantity: 2 }, { name: 'copperWiring', quantity: 6 }] })
+createResource('steelCeilingLight', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'plastic', quantity: 6 }, { name: 'copperWiring', quantity: 5 }, { name: 'lightBulb', quantity: 1, constant:true }] })
+createResource('steelFloorLamp', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'plastic', quantity: 6 }, { name: 'copperWiring', quantity: 5 }, { name: 'lightBulb', quantity: 1, constant:true }] })
+createResource('steelTableLight', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'plastic', quantity: 6 }, { name: 'copperWiring', quantity: 5 }, { name: 'lightBulb', quantity: 1, constant:true }] })
 //createResource('windTurbine', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'gearboxes', quantity: 4 },{ name: 'advancedCircuit', quantity: 4 }] })
+
+// Machinist table
+createResource('transmissionPole', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'copperWiring', quantity: 14 }, { name: 'lumber', quantity: 10 }] })

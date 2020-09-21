@@ -26,3 +26,4 @@ createResource('steamTruck', {
     { name: 'portableSteamEngine', quantity: 1, constant: true }, { name: 'ironWheel', quantity: 4, constant: true }, { name: 'ironAxle', quantity: 1, constant: true }
   ]
 })
+createResource('servo', { upgrade: 2, from: [{ name: 'basicCircuit', quantity: 2 }, { name: 'fiberglass', quantity: 5 }] })

@@ -60,7 +60,12 @@ export enum Dict {
   advancedCircuit,
   electricMotor,
   lightBulb,
-  goldWiring
+  goldWiring,
+  steelCeilingLight,
+  steelFloorLamp,
+  steelTableLight,
+  transmissionPole,
+  servo
 }
 
 export type ResName = keyof typeof Dict
