@@ -8,5 +8,6 @@ import './upgrades'
 import './masonry'
 import './mechanic'
 import './oil'
+import './tailor'
 
 export { getResult } from './utils'

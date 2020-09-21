@@ -65,7 +65,16 @@ export enum Dict {
   steelFloorLamp,
   steelTableLight,
   transmissionPole,
-  servo
+  servo,
+  truck,
+  gearbox,
+  celluloseFiber,
+  combustionEngine,
+  rubberWheel,
+  radiator,
+  steelAxle,
+  rubber,
+  heatSink
 }
 
 export type ResName = keyof typeof Dict
