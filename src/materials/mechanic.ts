@@ -9,6 +9,9 @@ createResource('ironPiston', { upgrade: 2, from: [{ name: 'ironBar', quantity: 2
 createResource('screws', { upgrade: 2, from: [{ name: 'ironBar', quantity: 1 / 4 }] })
 createResource('ironGear', { upgrade: 2, from: [{ name: 'ironBar', quantity: 1 }] })
 
+// gold
+createResource('goldWiring', { upgrade: 2, from: [{ name: 'goldBar', quantity: 4 }] })
+
 // copper
 createResource('copperWiring', { upgrade: 2, from: [{ name: 'copperBar', quantity: 4 }] })
 

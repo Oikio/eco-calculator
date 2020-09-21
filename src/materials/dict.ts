@@ -56,7 +56,11 @@ export enum Dict {
   ironWheel,
   ironAxle,
   boiler,
-  ironGear
+  ironGear,
+  advancedCircuit,
+  electricMotor,
+  lightBulb,
+  goldWiring
 }
 
 export type ResName = keyof typeof Dict
