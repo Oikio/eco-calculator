@@ -76,7 +76,9 @@ export enum Dict {
   rubber,
   heatSink,
   windTurbine,
-  jawCrusher
+  jawCrusher,
+  frothFloatationCell,
+  steelPipe
 }
 
 export type ResName = keyof typeof Dict

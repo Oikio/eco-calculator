@@ -17,6 +17,7 @@ createResource('quicklime', { upgrade: 2, from: [{ name: 'crushedLimestone', qua
 createResource('steelBar', { upgrade: 2, from: [{ name: 'coal', quantity: 1 }, { name: 'quicklime', quantity: 1 }, { name: 'ironBar', quantity: 2 }] })
 createResource('rebar', { upgrade: 2, from: [{ name: 'steelBar', quantity: 2 }] })
 createResource('rivet', { upgrade: 2, from: [{ name: 'steelBar', quantity: 1 / 3 }] })
+createResource('steelPipe', { upgrade: 2, from: [{ name: 'steelBar', quantity:2 }] })
 
 // instruments
 createResource('ironInstrument', { upgrade: 2, from: [{ name: 'board', quantity: 4 }, { name: 'ironBar', quantity: 4 }] })
