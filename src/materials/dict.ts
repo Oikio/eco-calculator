@@ -49,7 +49,14 @@ export enum Dict {
   copperWiring,
   goldFlakes,
   substrat,
-  fiberglass
+  fiberglass,
+  steamTruck,
+  screws,
+  portableSteamEngine,
+  ironWheel,
+  ironAxle,
+  boiler,
+  ironGear
 }
 
 export type ResName = keyof typeof Dict
