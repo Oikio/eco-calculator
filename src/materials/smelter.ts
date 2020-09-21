@@ -21,4 +21,8 @@ createResource('steelPipe', { upgrade: 2, from: [{ name: 'steelBar', quantity: 2
 
 // instruments
 createResource('ironInstrument', { upgrade: 2, from: [{ name: 'board', quantity: 4 }, { name: 'ironBar', quantity: 4 }] })
+createResource('steelInstrument', { upgrade: 2, from: [{ name: 'fiberglass', quantity: 10 }, { name: 'steelBar', quantity: 15 }] })
 createResource('chainsaw', { upgrade: 2, from: [{ name: 'fiberglass', quantity: 10 }, { name: 'steelBar', quantity: 4 }, { name: 'combustionEngine', quantity: 1, constant: true }] })
+createResource('compositeBow', { upgrade: 2, from: [{ name: 'fiberglass', quantity: 10 }, { name: 'steelBar', quantity: 15 }] })
+createResource('modernRockDrill', { upgrade: 2, from: [{ name: 'steelBar', quantity: 10 }, { name: 'steelGear', quantity: 2 }, { name: 'combustionEngine', quantity: 1, constant: true }] })
+
