@@ -79,7 +79,7 @@ export enum Dict {
   jawCrusher,
   frothFloatationCell,
   steelPipe,
-  advancedComustionEngine,
+  advancedCombustionEngine,
   valve,
   steelGearbox,
   skidSteer,

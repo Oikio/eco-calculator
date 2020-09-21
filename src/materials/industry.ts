@@ -19,7 +19,7 @@ createResource('rubberWheel', { upgrade: 3, from: [{ name: 'steelBar', quantity:
 createResource('radiator', { upgrade: 3, from: [{ name: 'heatSink', quantity: 4 }, { name: 'copperWiring', quantity: 8 }] })
 createResource('steelAxle', { upgrade: 3, from: [{ name: 'steelBar', quantity: 4 }, { name: 'epoxy', quantity: 3 }] })
 createResource('steelGearbox', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'steelGear', quantity: 4 }] })
-createResource('advancedComustionEngine', {
+createResource('advancedCombustionEngine', {
   upgrade: 3, from: [
     { name: 'steelPlate', quantity: 16 },
     { name: 'rivet', quantity: 12 },
@@ -50,7 +50,7 @@ createResource('skidSteer', {
     { name: 'gearbox', quantity: 4 },
     { name: 'celluloseFiber', quantity: 8 },
     { name: 'steelPlate', quantity: 16 },
-    { name: 'advancedComustionEngine', quantity: 1, constant: true },
+    { name: 'advancedCombustionEngine', quantity: 1, constant: true },
     { name: 'rubberWheel', quantity: 4, constant: true },
     { name: 'radiator', quantity: 2, constant: true },
     { name: 'steelAxle', quantity: 1, constant: true }
@@ -63,7 +63,7 @@ createResource('excavator', {
     { name: 'gearbox', quantity: 4 },
     { name: 'celluloseFiber', quantity: 8 },
     { name: 'steelPlate', quantity: 16 },
-    { name: 'advancedComustionEngine', quantity: 1, constant: true },
+    { name: 'advancedCombustionEngine', quantity: 1, constant: true },
     { name: 'rubberWheel', quantity: 4, constant: true },
     { name: 'radiator', quantity: 2, constant: true },
     { name: 'steelAxle', quantity: 1, constant: true }
