@@ -18,6 +18,7 @@ createResource('copperWiring', { upgrade: 2, from: [{ name: 'copperBar', quantit
 createResource('heatSink', { upgrade: 2, from: [{ name: 'copperBar', quantity: 8 }] })
 
 // complex
+createResource('pumpJack', { upgrade: 2, from: [{ name: 'reinforcedConcrete', quantity: 12 }, { name: 'gearbox', quantity: 4 }, { name: 'ironPiston', quantity: 8 }] })
 createResource('woodenElevator', { upgrade: 2, from: [{ name: 'gearbox', quantity: 4 }, { name: 'celluloseFiber', quantity: 4 }, { name: 'lumber', quantity: 30 }, { name: 'portableSteamEngine', quantity: 1, constant: true }] })
 createResource('valve', { upgrade: 3, from: [{ name: 'steelPlate', quantity: 4 }, { name: 'steelPipe', quantity: 4 }, { name: 'steelGearbox', quantity: 1, constant: true }] })
 createResource('combustionEngine', { upgrade: 2, from: [{ name: 'ironPiston', quantity: 6 }, { name: 'gearbox', quantity: 4 }, { name: 'ironPlate', quantity: 12 }, { name: 'rivet', quantity: 8 }] })

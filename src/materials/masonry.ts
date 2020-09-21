@@ -11,3 +11,4 @@ createResource('glass', { upgrade: 2, from: [{ name: 'sand', quantity: 3 }] })
 
 // cement
 createResource('cement', { upgrade: 0, price: 1, from: [] })
+createResource('reinforcedConcrete', { upgrade: 0, price: 0.8, from: [] })

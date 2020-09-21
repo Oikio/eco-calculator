@@ -4,6 +4,16 @@ createResource('steelPlate', { upgrade: 3, from: [{ name: 'steelBar', quantity: 
 createResource('steelGear', { upgrade: 3, from: [{ name: 'steelBar', quantity: 2 }, { name: 'epoxy', quantity: 1 }] })
 
 createResource('electricMachinistTable', { upgrade: 3, from: [{ name: 'steelBar', quantity: 12 }, { name: 'ironPlate', quantity: 12 }, { name: 'ironGear', quantity: 8 }] })
+createResource('sensorBasedBeltSorter', {
+  upgrade: 3, from: [
+    { name: 'steelPlate', quantity: 10 },
+    { name: 'steelGearbox', quantity: 5 },
+    { name: 'rivet', quantity: 16 },
+    { name: 'advancedCircuit', quantity: 5 },
+    { name: 'basicCircuit', quantity: 5 },
+    { name: 'electricMotor', quantity: 1, constant: true },
+  ]
+})
 
 createResource('rubberWheel', { upgrade: 3, from: [{ name: 'steelBar', quantity: 4 }, { name: 'rubber', quantity: 8 }] })
 createResource('radiator', { upgrade: 3, from: [{ name: 'heatSink', quantity: 4 }, { name: 'copperWiring', quantity: 8 }] })
