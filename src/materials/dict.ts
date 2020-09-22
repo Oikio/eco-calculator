@@ -96,7 +96,9 @@ export enum Dict {
   sensorBasedBeltSorter,
   reinforcedConcrete,
   pumpJack,
-  framedGlass
+  framedGlass,
+  advancedCarpentryTable,
+  steelSawBlade
 }
 
 export type ResName = keyof typeof Dict

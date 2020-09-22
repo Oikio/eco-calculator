@@ -18,6 +18,7 @@ createResource('steelBar', { upgrade: 2, from: [{ name: 'coal', quantity: 1 }, {
 createResource('rebar', { upgrade: 2, from: [{ name: 'steelBar', quantity: 2 }] })
 createResource('rivet', { upgrade: 2, from: [{ name: 'steelBar', quantity: 1 / 3 }] })
 createResource('steelPipe', { upgrade: 2, from: [{ name: 'steelBar', quantity: 2 }] })
+createResource('steelSawBlade', { upgrade: 2, from: [{ name: 'steelBar', quantity: 10 }] })
 
 // instruments
 createResource('ironInstrument', { upgrade: 2, from: [{ name: 'board', quantity: 4 }, { name: 'ironBar', quantity: 4 }] })

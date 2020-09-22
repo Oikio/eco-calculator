@@ -4,6 +4,7 @@ createResource('steelPlate', { upgrade: 3, from: [{ name: 'steelBar', quantity: 
 createResource('steelGear', { upgrade: 3, from: [{ name: 'steelBar', quantity: 2 }, { name: 'epoxy', quantity: 1 }] })
 
 createResource('electricMachinistTable', { upgrade: 3, from: [{ name: 'steelBar', quantity: 12 }, { name: 'ironPlate', quantity: 12 }, { name: 'ironGear', quantity: 8 }] })
+createResource('advancedCarpentryTable', { upgrade: 3, from: [{ name: 'steelPlate', quantity: 6 }, { name: 'steelSawBlade', quantity: 6 }, { name: 'lumber', quantity: 10 }] })
 createResource('sensorBasedBeltSorter', {
   upgrade: 3, from: [
     { name: 'steelPlate', quantity: 10 },
