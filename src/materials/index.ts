@@ -9,5 +9,6 @@ import './masonry'
 import './mechanic'
 import './oil'
 import './tailor'
+import './butcher'
 
 export { getResult } from './utils'
