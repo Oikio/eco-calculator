@@ -8,6 +8,7 @@ createResource('brick', { upgrade: 2, from: [{ name: 'clay', quantity: 1 }, { na
 // glass
 createResource('sand', { upgrade: 0, price: 0.3, from: [] })
 createResource('glass', { upgrade: 2, from: [{ name: 'sand', quantity: 3 }] })
+createResource('framedGlass', { upgrade: 3, from: [{ name: 'glass', quantity: 6 }, { name: 'steelBar', quantity: 2 }] })
 
 // cement
 createResource('cement', { upgrade: 0, price: 2, from: [] })
