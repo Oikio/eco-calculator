@@ -17,6 +17,8 @@ createResource('steelCeilingLight', { upgrade: 3, from: [{ name: 'steelBar', qua
 createResource('steelFloorLamp', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'plastic', quantity: 6 }, { name: 'copperWiring', quantity: 5 }, { name: 'lightBulb', quantity: 1, constant:true }] })
 createResource('steelTableLight', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'plastic', quantity: 6 }, { name: 'copperWiring', quantity: 5 }, { name: 'lightBulb', quantity: 1, constant:true }] })
 createResource('windTurbine', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'gearbox', quantity: 4 },{ name: 'advancedCircuit', quantity: 4 }] })
+createResource('modernDoubleStreetLight', { upgrade: 3, from: [{ name: 'steelPlate', quantity: 8 }, { name: 'plastic', quantity: 5 },{ name: 'copperWiring', quantity: 10 },{ name: 'lightBulb', quantity: 2, constant:true }] })
+createResource('modernStreetLight', { upgrade: 3, from: [{ name: 'steelPlate', quantity: 6 }, { name: 'plastic', quantity: 4 },{ name: 'copperWiring', quantity: 6 },{ name: 'lightBulb', quantity: 1, constant:true }] })
 
 // Machinist table
 createResource('transmissionPole', { upgrade: 3, from: [{ name: 'steelBar', quantity: 8 }, { name: 'copperWiring', quantity: 14 }, { name: 'lumber', quantity: 10 }] })
