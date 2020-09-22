@@ -8,12 +8,12 @@ createResource('ironConcentrate', { upgrade: 3, price: 12, from: [{ name: 'crush
 // copper
 createResource('copper', { upgrade: 0, from: [] })
 createResource('crushedCopper', { upgrade: 3, from: [{ name: 'copper', quantity: 4, constant: true }] })
-createResource('copperConcentrate', { upgrade: 2, price: 14, from: [{ name: 'crushedCopper', quantity: 3 }] })
+createResource('copperConcentrate', { upgrade: 3, price: 14, from: [{ name: 'crushedCopper', quantity: 3.5 }] })
 
 // gold
 createResource('gold', { upgrade: 0, from: [] })
 createResource('crushedGold', { upgrade: 3, from: [{ name: 'gold', quantity: 4, constant: true }] })
-createResource('goldConcentrate', { upgrade: 2, price: 15, from: [{ name: 'crushedGold', quantity: 3 }] })
+createResource('goldConcentrate', { upgrade: 3, price: 15, from: [{ name: 'crushedGold', quantity: 3.5 }] })
 
 
 // limestone
