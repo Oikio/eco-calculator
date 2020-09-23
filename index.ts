@@ -9,5 +9,5 @@ Object.keys(result.resources).sort().forEach((name) => {
 })
 console.log('----')
 console.log(`sum: ${result.sum.toFixed(2)}`)
-console.log(`with ${config.profit.toFixed(2)} profit: ${(result.sum + result.sum * config.profit).toFixed(2)}`)
+console.log(`with ${(config.profit * 100).toFixed(2)}% profit: ${(result.sum + result.sum * config.profit).toFixed(2)}`)
 console.log('--------------------------')
