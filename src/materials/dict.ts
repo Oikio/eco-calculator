@@ -103,7 +103,9 @@ export enum Dict {
   modernDoubleStreetLight,
   rawMeat,
   bisonCarcass,
-  primeCut
+  primeCut,
+  refrigerator,
+  washingMachine
 }
 
 export type ResName = keyof typeof Dict
