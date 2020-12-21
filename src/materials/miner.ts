@@ -1,9 +1,9 @@
 import { createResource } from './utils'
 
 // iron
-createResource('iron', { upgrade: 0, from: [] })
-createResource('crushedIron', { upgrade: 3, from: [{ name: 'iron', quantity: 4, constant: true }] })
-createResource('ironConcentrate', { upgrade: 3, price: 8, from: [{ name: 'crushedIron', quantity: 2.5 }] })
+createResource('iron', { upgrade: 0, price: 0.4, from: [] })
+createResource('crushedIron', { upgrade: 1, from: [{ name: 'iron', quantity: 12, constant: true }] })
+createResource('ironConcentrate', { upgrade: 1, from: [{ name: 'crushedIron', quantity: 5 }] })
 
 // copper
 createResource('copper', { upgrade: 0, from: [] })

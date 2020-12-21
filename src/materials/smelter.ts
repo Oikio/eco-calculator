@@ -1,7 +1,7 @@
 import { createResource } from './utils'
 
 // iron
-createResource('ironBar', { upgrade: 2, from: [{ name: 'ironConcentrate', quantity: 0.5 }] })
+createResource('ironBar', { upgrade: 2, from: [{ name: 'ironConcentrate', quantity: 1 }] })
 createResource('ironPipe', { upgrade: 2, from: [{ name: 'ironBar', quantity: 2 }] })
 createResource('nails', { upgrade: 2, from: [{ name: 'ironBar', quantity: 1 / 16 }] })
 

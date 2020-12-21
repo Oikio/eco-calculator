@@ -105,7 +105,13 @@ export enum Dict {
   bisonCarcass,
   primeCut,
   refrigerator,
-  washingMachine
+  washingMachine,
+  hewnLog,
+  plantFibers,
+  hewnChair,
+  wood,
+  butcheryTable,
+  strawBed
 }
 
 export type ResName = keyof typeof Dict
