@@ -111,7 +111,11 @@ export enum Dict {
   hewnChair,
   wood,
   butcheryTable,
-  strawBed
+  strawBed,
+  smallWoodSign,
+  hewnBench,
+  hewnTable,
+  woodenLatrine
 }
 
 export type ResName = keyof typeof Dict
